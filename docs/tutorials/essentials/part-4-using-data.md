@@ -291,10 +291,10 @@ export const EditPostForm = ({ match }) => {
           value={content}
           onChange={onContentChanged}
         />
-      </form>
       <button type="button" onClick={onSavePostClicked}>
         Save Post
       </button>
+      </form>
     </section>
   )
 }
